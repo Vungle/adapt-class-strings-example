@@ -1,0 +1,4 @@
+com.example.MainModule -> com.example.d:
+com.example.MainModule$$ModuleAdapter -> com.example.d$$ModuleAdapter:
+com.example.Main$$InjectAdapter -> com.example.Main$$InjectAdapter:
+com.example.Dependency$$InjectAdapter -> com.example.a$$InjectAdapter:
