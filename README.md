@@ -39,5 +39,5 @@ However, a string containg the classname amidst characters is not replaced.
 Dagger module (com.example.MainModule = com.example.d) cannot instantiate com.example.MainUsingProvider 
 because it is trying to instantiate the obfuscated class using the unobfuscated name.<br/>
 This is because Dagger uses strings like 'members/com.example.MainUsingProvider' and 
-'javax.inject.Provider<com.example.Dependency>' and Proguard with the -adaptclassstrings flag will not 
+'javax.inject.Provider\<com.example.Dependency>' and Proguard with the -adaptclassstrings flag will not 
 replace obfuscated class names.  Either Dagger or Proguard might be modified to workaround this issue.
